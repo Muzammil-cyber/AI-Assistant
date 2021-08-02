@@ -188,7 +188,6 @@ while True:
     elif "make" in command and "note" in command:
         f = open("Note.txt", "w")
         cmd = "n"
-        # noinspection PyUnboundLocalVariable
         while "n" in cmd or text == "" or "don't" in cmd:
             speakprint("What should i Write?")
             text = ask()
