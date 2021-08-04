@@ -21,3 +21,5 @@ import requests
 import json
 
 from googlesearch import search #pip install googlesearch
+
+from time import sleep
