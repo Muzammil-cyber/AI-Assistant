@@ -23,3 +23,5 @@ import json
 from googlesearch import search #pip install googlesearch
 
 from time import sleep
+
+from PyDictionary import PyDictionary #pip install PyDictionary
